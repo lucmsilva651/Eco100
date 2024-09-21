@@ -3,53 +3,84 @@
 /* BSD-3-Clause: veja o arquivo LICENSE */
 
 body {
-  background-color: #fbf5f3ff;
+  background-image: url("../Assets/arvore_capa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'DM Sans', sans-serif;
   padding: .2em 3em 2em 3em;
   zoom: 110%;
+  opacity: 90%;
+}
+
+.container, header{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1%;
+}
+
+.container{
+  margin-top: 10%;
+  text-align: center;
 }
 
 header {
   font-size: 1.5em;
   display: flex;
   justify-content: space-between;
-  font-family: 'DM Serif Text', serif;
+  font-weight: bold;
 }
 
 header a {
   text-decoration: none;
+  border-radius: 8px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'DM Serif Text', serif;
-  margin: 0;
+header p:hover{
+  color: rgb(19, 131, 107);
 }
 
 p {
   font-size: 1.2em;
-  color: #c42847ff;
 }
 
 .botoes-laterais {
   padding-right: 5px;
 }
 
+p, .secao-pix{
+  color: rgb(19, 90, 55);
+}
+
+.copiar, .qrcode{
+  cursor: pointer;
+}
+
 .secao-pix {
   display: flex;
   flex-direction: column;
-  color: #c42847ff;
   font-weight: bold;
+}
+
+.secao-pix a:hover{
+  color: rgb(19, 131, 107);
 }
 
 .secao-pix img {
   margin-top: 15px;
   width: 200px;
   height: 200px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.forma{
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 @media only screen and (max-width: 540px) {
