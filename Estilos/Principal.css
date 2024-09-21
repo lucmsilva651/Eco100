@@ -84,33 +84,7 @@ img {
 }
 
 @media only screen and (max-width: 540px) {
-  body {
-    zoom: 100%;
-  }
-
-  header {
-    text-align: center;
-    flex-direction: column;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 15px;
-  }
-
-  header p {
-    margin: 0;
-  }
-
-  .logotipo {
-    margin-top: 16px;
-  }
-
-  .botoes-laterais {
-    padding-right: 0px;
+  header{
+    font-size: 1rem;
   }
 }
