@@ -32,8 +32,9 @@
     <h2>Ajude o criador</h2>
     <p>Caso tenha achado o projeto bem legal, você pode tentar fazer uma doação pra mim pelo Pix:</p>
     <div class="secao-pix">
-      <a class="copiar" onclick="copiarChavePix()">Copiar Chave Pix</a>
-      <a class="qrcode" onclick="mostrarQrCode()">Mostrar QR Code do Pix</a>
+      <a class="pixlink" onclick="copiarChavePix()">Copiar Chave Pix</a>
+      <a id="mostrarQrLink" class="pixlink" onclick="mostrarQrCode()">Mostrar QR Code do Pix</a>
+      <a id="esconderQrLink" class="pixlink" onclick="ocultarQrCode()">Esconder QR Code do Pix</a>
       <img id="img-pix" src="https://telegra.ph/file/7250a86d7f1eb36aec74f.jpg">
     </div>
   </div>

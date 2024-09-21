@@ -51,7 +51,7 @@ p, .secao-pix{
   color: rgb(19, 90, 55);
 }
 
-.copiar, .qrcode{
+.pixlink{
   cursor: pointer;
 }
 
